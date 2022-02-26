@@ -40,6 +40,17 @@ typedef struct{
 }OpBitsStr;
 
 
+typedef struct{
+    Flotante x;
+    Flotante y;
+}CoordenadasStr;
+
+typedef struct{
+    UnChr Nombre[20];
+    CoordenadasStr Coordena;
+}PuntosStr;
+
+
 
 
 
