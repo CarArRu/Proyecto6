@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1645889803 source:c:\users\cesar\onedrive\escritorio\borrar\developer1\proyecto6\main.c
+	"OtroDev1.h"
+
+1645889803 source:c:\users\cesar\onedrive\escritorio\borrar\developer1\proyecto6\otrodev1.c
+	"OtroDev1.h"
+
+1645889803 c:\users\cesar\onedrive\escritorio\borrar\developer1\proyecto6\otrodev1.h
+	<stdio.h>
+

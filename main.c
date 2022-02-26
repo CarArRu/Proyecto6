@@ -1,8 +1,20 @@
-#include<stdio.h>
+/// Librerías
+#include "OtroDev1.h"
+
+
 
 int main(void){
 
-    printf("\nHola Mundo");
+
+    printf("\nUso de 'static'\n");
+
+    ContadorStatic();
+    ContadorStatic();
+    ContadorStatic();
+    ContadorStatic();
+    ContadorStatic();
+
+    printf("\nValor de variable externa: %d", VarExterna);
 
 
 }   /// Main
