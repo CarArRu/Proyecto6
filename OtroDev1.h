@@ -13,6 +13,14 @@ typedef unsigned int Uint;
 extern Uint VarExterna;
 
 
+typedef struct {
+
+    Uint ValorCase;
+
+}SwitchCaseStr;
+
+
+
 /// Prototipos de Función
 void ContadorStatic(void);
 
