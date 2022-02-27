@@ -51,6 +51,22 @@ typedef struct{
 }PuntosStr;
 
 
+typedef struct{
+    Unint Valor1;
+    Unint Valor2;
+    Unint Expresion;
+}TernariosStr;
+
+
+typedef struct{
+    Unint a;
+    Unint b;
+    Flotante m;
+}CastStr;
+
+/// Prototipos de Función
+void CambiarTexto(UnChr const *Cadena);
+
 
 
 

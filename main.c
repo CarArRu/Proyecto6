@@ -6,7 +6,13 @@
 DoblesStruct Dobles;
 OpBitsStr OpBits;
 
+TernariosStr Ternarios;
+
 PuntosStr Puntos[2];
+
+CastStr Cast;
+
+UnChr Texto[50];
 
 
 int main(void){
@@ -97,14 +103,40 @@ SaltoDev2:
     Puntos[1].Nombre[2]='a';
     Puntos[1].Nombre[3]='r';
 
-    for(OpBits.Entero=0;OpBits.Entero<2;OpBits.Entero++){--------
+    for(OpBits.Entero=0;OpBits.Entero<2;OpBits.Entero++){
 
         printf("\nNombre: %s", Puntos[OpBits.Entero].Nombre);
-        printf("\nPunto x: %d", Puntos[OpBits.Entero].x);
-        printf("\nPunto y: %d", Puntos[OpBits.Entero].Coordena.y);
+        printf("\nPunto x: %0.2f", Puntos[OpBits.Entero].Coordena.x);
+        printf("\nPunto y: %0.2f", Puntos[OpBits.Entero].Coordena.y);
+        printf("\n");}
 
-    }
 
+    printf("\nOperaciones ternarias: \n");
+
+
+    Ternarios.Valor1 = 81;
+    Ternarios.Valor2 = 81;
+    Ternarios.Expresion = 900;
+
+    (Ternarios.Valor1 == Ternarios.Valor2) ? printf("\nSon iguales") : printf("\nNo son iguales");
+
+    Ternarios.Expresion = (Ternarios.Valor1 == Ternarios.Valor2) ? 900 : 1000;
+
+    printf("\nValor de la expresion: %d", Ternarios.Expresion);
+
+    printf("\n\nCasteo\n\n");
+
+    Cast.a = 9;
+    Cast.b = 10;
+    Cast.m = Cast.a / (Flotante)Cast.b;
+
+    printf("\n%d / %d = %0.2f", Cast.a, Cast.b, Cast.m);
+
+    printf("\nEscriba un texto: ");
+    scanf("%[^\n]s", &Texto[0]);
+
+    CambiarTexto(&Texto[0]);
+    ///printf("\nCadena: %s", Texto);
 
 
 
