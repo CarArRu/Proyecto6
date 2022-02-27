@@ -1,4 +1,6 @@
 # depslib dependency file v1.0
+2 
+
 1645889803 source:c:\users\cesar\onedrive\escritorio\borrar\developer1\proyecto6\main.c
 	"OtroDev1.h"
 
@@ -6,5 +8,38 @@
 	"OtroDev1.h"
 
 1645891100 c:\users\cesar\onedrive\escritorio\borrar\developer1\proyecto6\otrodev1.h
+
+1645892982 source:c:\users\cesar\onedrive\escritorio\borrar\developer2\proyecto6\otrodev2.c
+
+1645896981 source:c:\users\cesar\onedrive\escritorio\borrar\developer2\proyecto6\main.c
+	"OtroDev2.h"
+
+1645895932 c:\users\cesar\onedrive\escritorio\borrar\developer2\proyecto6\otrodev2.h
 	<stdio.h>
+
+1645915643 source:c:\users\cesar\onedrive\escritorio\borrar\proyectocondocdec\dev2\proyecto6\main.c
+	"OtroDev2.h"
+
+1645915779 c:\users\cesar\onedrive\escritorio\borrar\proyectocondocdec\dev2\proyecto6\otrodev2.h
+	<stdio.h>
+
+1645991435 source:c:\users\cesar\onedrive\escritorio\borrar\proyectocondocdec\d2\proyecto6\main.c
+	"OtroDev1.h"
+	"OtroDev2.h"
+
+1645991309 c:\users\cesar\onedrive\escritorio\borrar\proyectocondocdec\d2\proyecto6\otrodev2.h
+	<stdio.h>
+
+1645991309 source:c:\users\cesar\onedrive\escritorio\borrar\proyectocondocdec\d2\proyecto6\otrodev2.c
+	"OtroDev2.h"
+	<stdio.h>
+
+1645989008 eloper2
+	<stdio.h>
+
+1645989890 c:\users\cesar\onedrive\escritorio\borrar\proyectocondocdec\d2\proyecto6\otrodev1.h
+	<stdio.h>
+
+1645989890 source:c:\users\cesar\onedrive\escritorio\borrar\proyectocondocdec\d2\proyecto6\otrodev1.c
+	"OtroDev1.h"
 
